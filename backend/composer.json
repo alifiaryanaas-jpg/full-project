@@ -1,0 +1,9 @@
+{
+    "name": "diskominfo-bontang/asset-tracker-backend",
+    "description": "Backend API pencatatan aset keluar/masuk - Divisi IT Diskominfo Kota Bontang",
+    "require": {
+        "php": ">=8.0",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "dompdf/dompdf": "^2.0"
+    }
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #1C1B19;
+}
+
+/* Wordmark logo asli ECCO pakai geometric rounded sans (bukan serif) --
+   Fredoka paling deket sama proporsi huruf bulat & stroke tebal-rata di logo. */
+.brand-wordmark {
+  font-family: 'Fredoka', 'Segoe UI Rounded', -apple-system, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-transform: lowercase;
+}
+
+/* Badge di sekeliling wordmark -- rounded-rect (bukan pill penuh), sama kaya
+   bingkai di logo aslinya: sudut membulat lembut, bukan stadium/kapsul. */
+.brand-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid currentColor;
+  border-radius: 0.65rem;
+  padding: 0.2rem 0.85rem;
+  line-height: 1.3;
+}
