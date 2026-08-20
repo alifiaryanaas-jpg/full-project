@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'diskominfo-bontang/asset-tracker-backend',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '226ef4bedcfe94874a2a884c3400bb404015aabe',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'diskominfo-bontang/asset-tracker-backend' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '226ef4bedcfe94874a2a884c3400bb404015aabe',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
